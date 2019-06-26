@@ -4,17 +4,17 @@
         <item>
             <title>New prices in pricelist</title>
             <description>Some prices are changed, due to monthly deals.</description>
-            <link>link.com</link>
+            <link>https://jankela99.github.io/csgoboost/pricelist.html</link>
         </item>
         <item>
             <title>New design of gallery</title>
             <description>Take a look at gallery page, we have new design.</description>
-            <link>link.com</link>
+            <link>https://jankela99.github.io/csgoboost/gallery.html</link>
         </item>
         <item>
             <title>Monthly deals are added</title>
             <description>We have just added 4 new monthly deals.</description>
-            <link>link.com</link>
+            <link>https://jankela99.github.io/csgoboost/index.html</link>
         </item>
     </channel>
 </xml>
