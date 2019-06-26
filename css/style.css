@@ -1,0 +1,116 @@
+@font-face {
+  src: url("Roboto-Regular.ttf");
+  font-family: 'mojFont';
+}
+
+body {
+  font-family: 'mojFont', sans-serif;
+}
+
+.my-nav-link:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+#pozadinskaSlika {
+  background-image: url("../images/wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 75vh;
+}
+
+.ikonica {
+  border-radius: 50%;
+  border: 7px solid #ffc107;
+}
+
+.ikonica2 {
+  border-radius: 10%;
+  border: 5px solid #ffc107;
+}
+
+.donjaIvica {
+  border-bottom: 2px solid #ffc107;
+  width: 85%;
+}
+
+.linijaLevo {
+  border-left: 3px solid #ffc107;
+}
+
+.modal {
+  max-height: 100% !important;
+  background-color: transparent !important;
+}
+
+#textArea {
+  resize: none;
+}
+
+.indicators {
+  padding: 4px;
+}
+
+.indicators .indicator-item {
+  padding: 10px;
+}
+
+.indicators .indicator-item.active {
+  background-color: #ffc107 !important;
+}
+
+@-webkit-keyframes animate {
+  from {
+    top: -30;
+    left: 0;
+  }
+  to {
+    top: 120%;
+    left: -120%;
+  }
+}
+
+@keyframes animate {
+  from {
+    top: -30;
+    left: 0;
+  }
+  to {
+    top: 120%;
+    left: -120%;
+  }
+}
+
+.hovered-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.hovered-image::before {
+  display: none;
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 0;
+  width: 200%;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.2);
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+}
+
+.hovered-image:hover::before {
+  display: block;
+  -webkit-animation-name: animate;
+          animation-name: animate;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+.skloniLiniju {
+  border-left: none;
+}
+/*# sourceMappingURL=style.css.map */
